@@ -11,7 +11,7 @@
 #import "DRYColorViewController.h"
 
 
-@interface DRYAppDelegate () <DRYPagerViewControllerDataSource> {
+@interface DRYAppDelegate () <DRYPagerViewControllerDataSource, DRYPagerViewControllerDelegate> {
     NSArray *_colors;
 }
 
@@ -31,9 +31,10 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     DRYPagerViewController *pagerViewController = [[DRYPagerViewController alloc] init];
-    pagerViewController.view.backgroundColor = [UIColor purpleColor];
     pagerViewController.dataSource = self;
-    
+    pagerViewController.delegate = self;
+    pagerViewController.view.backgroundColor = [UIColor purpleColor];
+
     self.window.rootViewController = pagerViewController;
     [self.window makeKeyAndVisible];   return YES;
 }
@@ -51,5 +52,9 @@
     } else {
         return nil;
     }
+}
+
+- (void)pagerViewController:(DRYPagerViewController *)pageViewController didMoveToController:(UIViewController *)controller {
+    NSLog(@"Showing controller with color %@", [((UINavigationController *)controller).viewControllers.firstObject color]);
 }
 @end

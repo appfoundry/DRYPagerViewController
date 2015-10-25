@@ -8,13 +8,6 @@
 
 #import "DRYPagerViewController.h"
 
-@protocol DRYContainedInPagerViewControllerAware <NSObject>
-
-- (void)didBecomeVisibleInPagerViewController:(DRYPagerViewController *)pagerViewController;
-- (void)didBecomeInvisibleInPagerViewController:(DRYPagerViewController *)pagerViewController;
-
-@end
-
 @interface DRYPagerViewController () {
     DRYPagerView *_scrollView;
     UIViewController *_nextViewController;
@@ -109,6 +102,9 @@
     } else if (offset == 1) {
         [_scrollView setMiddleView:viewController.view];
         _middleViewController = viewController;
+        if (viewController) {
+            [self.delegate pagerViewController:self didMoveToController:viewController];
+        }
     } else if (offset == 2) {
         [_scrollView setRightView:viewController.view];
         _rightViewController = viewController;
@@ -148,6 +144,8 @@
         }
     }
     
+    [self.delegate pagerViewController:self didMoveToController:_middleViewController];
+    
     [self _setNavigationItemsToMiddleViewControllerItems];
     [self _notifyViewControllerVisibility];
 }
@@ -160,9 +158,9 @@
 }
 
 - (void)_notifyViewControllerVisibility {
-    [self _notifyViewControllerIsUnvisibleToUser:_leftViewController];
+    [self _notifyViewControllerIsInvisibleToUser:_leftViewController];
     [self _notifyViewControllerIsVisbleToUser:_middleViewController];
-    [self _notifyViewControllerIsUnvisibleToUser:_rightViewController];
+    [self _notifyViewControllerIsInvisibleToUser:_rightViewController];
 }
 
 - (void)_notifyViewControllerIsVisbleToUser:(UIViewController *)viewController {
@@ -171,7 +169,7 @@
     }
 }
 
-- (void)_notifyViewControllerIsUnvisibleToUser:(UIViewController *)viewController {
+- (void)_notifyViewControllerIsInvisibleToUser:(UIViewController *)viewController {
     if([viewController respondsToSelector:@selector(didBecomeInvisibleInPagerViewController:)]) {
         [(id<DRYContainedInPagerViewControllerAware>)viewController didBecomeInvisibleInPagerViewController:self];
     }
