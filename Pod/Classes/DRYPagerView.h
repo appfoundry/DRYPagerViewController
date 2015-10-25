@@ -27,7 +27,6 @@ typedef NS_ENUM(NSInteger, DRYPagerDirection) {
 
 @optional
 
-- (void)pagerView:(DRYPagerView *)pagerView isMovingInDirection:(DRYPagerDirection)direction completion:(CGFloat)percentage;
 - (void)pagerView:(DRYPagerView *)pagerView didMoveInDirection:(DRYPagerDirection)direction;
 
 @end
