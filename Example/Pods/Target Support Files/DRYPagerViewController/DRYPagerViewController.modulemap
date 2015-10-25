@@ -1,0 +1,6 @@
+framework module DRYPagerViewController {
+  umbrella header "DRYPagerViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

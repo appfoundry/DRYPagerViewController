@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		143CC1E4CE24DE55EF7A31EED8285B20 /* DRYPagerViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 868857E6F4EEC06697B238C379834937 /* DRYPagerViewController-dummy.m */; };
+		20536B85467F0FB3F4DD39AD913B1A81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		22BE290ECECFF1986FB756362334D5A7 /* Pods-DRYPagerViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FD94AA06BFEC591705BD1F217EEEE24 /* Pods-DRYPagerViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BC125482BCF41FE2920B0EB20D78D8E /* DRYPagerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F62F829D9C81B5131C36F9E7B2E8A62 /* DRYPagerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53A97EFF9047BB66865F797F35FD3FCA /* UIViewController+DRYPagerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B957DFED6109F61FE4C7363A1083CF4D /* UIViewController+DRYPagerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FDD8ADF50398AF4235798CFE6B38D03 /* Pods-DRYPagerViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77E773C9C08E55A6B954A979D9462F5F /* Pods-DRYPagerViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		627DFFE48441275829F07C170124F597 /* DRYPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D8482730553AEBD18A5C5F11E36C31 /* DRYPagerView.m */; };
+		65D57F09BA31A02063111F0CFAD88C9F /* DRYPagerViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB5CDB7AF82EAAC10F36B4206560139 /* DRYPagerViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D6CBEF0FA313597C61FD5399345ED8A /* Pods-DRYPagerViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0545ED3B8BFCCB14379E6A7BC23E50 /* Pods-DRYPagerViewController_Tests-dummy.m */; };
+		7CC87088196DC46C61FEABC8C671C248 /* DRYPagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E856BD04B902C0EC7EF083E11B449E /* DRYPagerViewController.m */; };
+		944B94D01C981CD6C538979797A20A6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		992BC8E5522D4FFA9A5787A913BABE3A /* Pods-DRYPagerViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCA4CAA11F1E1B24AA1315E88D4C63B /* Pods-DRYPagerViewController_Example-dummy.m */; };
+		A4B30F219A3114F829B4B0B405871071 /* UIViewController+DRYPagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 587C2D3E46835C37A58A557439DD342B /* UIViewController+DRYPagerViewController.m */; };
+		E1C1E57C51A7E9E2241543B581EC2965 /* DRYPagerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F44E6F1CCE4CE331031B8DFE7C3D16 /* DRYPagerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E72C946E755640429C36349EBC92D792 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		F572789CC129A17B475675A6BEA79D67 /* DRYPagerViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 61E929FA6D16802946ABD8E7E89D3E0C /* DRYPagerViewController.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70D01FDE84BD02A28243E735D868FF70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07427F917404D99107B9140688AC1C3D;
+			remoteInfo = DRYPagerViewController;
+		};
+		CAC4919876F43084052298FF00C238A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA45CCD902128F17E80F6E3893012AA1;
+			remoteInfo = "DRYPagerViewController-DRYPagerViewController";
+		};
+		D334B621DA5276E40FD5F3C4976ED828 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07427F917404D99107B9140688AC1C3D;
+			remoteInfo = DRYPagerViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01257ADE7B9B58526590B5E7B126B0E1 /* Pods-DRYPagerViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DRYPagerViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		02D456948B656E74AF4F35D41FFC0F46 /* Pods-DRYPagerViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRYPagerViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0BC9DA59E7201763032A48D37BD16C85 /* DRYPagerViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DRYPagerViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F62F829D9C81B5131C36F9E7B2E8A62 /* DRYPagerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DRYPagerView.h; sourceTree = "<group>"; };
+		1493685074C8FC88B263C75E78A6351C /* Pods-DRYPagerViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRYPagerViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		159543CE41012694D1CB67F8657CE24A /* Pods_DRYPagerViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DRYPagerViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16E856BD04B902C0EC7EF083E11B449E /* DRYPagerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DRYPagerViewController.m; sourceTree = "<group>"; };
+		1B0545ED3B8BFCCB14379E6A7BC23E50 /* Pods-DRYPagerViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DRYPagerViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		22377F1F0D7046D05EE36A22757F58FB /* Pods-DRYPagerViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DRYPagerViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		2DA08F82DB692F7F31593ECA9D5FEC13 /* Pods-DRYPagerViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DRYPagerViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		41CAFE0115AFE0867E75D3C126FA17DD /* Pods-DRYPagerViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DRYPagerViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		41D2E3614DCABA7F3F1D76C51A104E6F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46BF14E62A2635F9114DB3E6F38FC649 /* DRYPagerViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DRYPagerViewController.xcconfig; sourceTree = "<group>"; };
+		55D8F35D83D99CD080AC011874358439 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		587C2D3E46835C37A58A557439DD342B /* UIViewController+DRYPagerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DRYPagerViewController.m"; sourceTree = "<group>"; };
+		61E929FA6D16802946ABD8E7E89D3E0C /* DRYPagerViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DRYPagerViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E773C9C08E55A6B954A979D9462F5F /* Pods-DRYPagerViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DRYPagerViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		7FD94AA06BFEC591705BD1F217EEEE24 /* Pods-DRYPagerViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DRYPagerViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		83D8ED48A9A3DE9EB9A7495F56EBD438 /* Pods_DRYPagerViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DRYPagerViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F44E6F1CCE4CE331031B8DFE7C3D16 /* DRYPagerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DRYPagerViewController.h; sourceTree = "<group>"; };
+		868857E6F4EEC06697B238C379834937 /* DRYPagerViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DRYPagerViewController-dummy.m"; sourceTree = "<group>"; };
+		8D7B47C053FEE2721B70C8BEE6379AC6 /* Pods-DRYPagerViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DRYPagerViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		93B6F9ABB0FED3FC87CB25474EF4C8BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00E1D3C693AE7BF842DFF2F56EA85B4 /* Pods-DRYPagerViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRYPagerViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B177FDB1F691D8E6A2899E991B3F3B65 /* Pods-DRYPagerViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DRYPagerViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B957DFED6109F61FE4C7363A1083CF4D /* UIViewController+DRYPagerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DRYPagerViewController.h"; sourceTree = "<group>"; };
+		B97BA9B940B23A0503CAE97BD500AAC4 /* Pods-DRYPagerViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRYPagerViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C303E6642D4A224B01A09FEDB8915735 /* DRYPagerViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRYPagerViewController-prefix.pch"; sourceTree = "<group>"; };
+		CEB5CDB7AF82EAAC10F36B4206560139 /* DRYPagerViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRYPagerViewController-umbrella.h"; sourceTree = "<group>"; };
+		D65130FFC0B7EE9343C95AE9E2A5DE7D /* Pods-DRYPagerViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DRYPagerViewController_Example.modulemap"; sourceTree = "<group>"; };
+		D78B23985604A0F930203DB46773607C /* Pods-DRYPagerViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DRYPagerViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D9E3A37A715A41AB3B61221D647CB79F /* Pods-DRYPagerViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DRYPagerViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DDCA4CAA11F1E1B24AA1315E88D4C63B /* Pods-DRYPagerViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DRYPagerViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		F13C967CC6C5C3F7697FFB780913AAD0 /* Pods-DRYPagerViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DRYPagerViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F25A21D572AAB76B3ED64D04213EC83D /* DRYPagerViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DRYPagerViewController.modulemap; sourceTree = "<group>"; };
+		F9D8482730553AEBD18A5C5F11E36C31 /* DRYPagerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DRYPagerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		449E37F6F5084906577ABEAC19590423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97FE775D7BCDEEDBAD662175F4435E9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944B94D01C981CD6C538979797A20A6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8AD8AA78FABB47D9F67D761F8E0DEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20536B85467F0FB3F4DD39AD913B1A81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D960004177F18271E6B9E835AC518193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72C946E755640429C36349EBC92D792 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06D911E6FC33D8AA7E258DE978031D54 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				39EA7B5D1953F77432D78886FDE307E2 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		0B75D06D4B73CB01186CF2EECFF55C0F /* DRYPagerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				06D911E6FC33D8AA7E258DE978031D54 /* Pod */,
+				8870D87D1F305917005B1F2A5D206289 /* Support Files */,
+			);
+			name = DRYPagerViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		12B9D849300FF1658C449DADA51CBD4C /* Pods-DRYPagerViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				93B6F9ABB0FED3FC87CB25474EF4C8BD /* Info.plist */,
+				D65130FFC0B7EE9343C95AE9E2A5DE7D /* Pods-DRYPagerViewController_Example.modulemap */,
+				B177FDB1F691D8E6A2899E991B3F3B65 /* Pods-DRYPagerViewController_Example-acknowledgements.markdown */,
+				D78B23985604A0F930203DB46773607C /* Pods-DRYPagerViewController_Example-acknowledgements.plist */,
+				DDCA4CAA11F1E1B24AA1315E88D4C63B /* Pods-DRYPagerViewController_Example-dummy.m */,
+				D9E3A37A715A41AB3B61221D647CB79F /* Pods-DRYPagerViewController_Example-frameworks.sh */,
+				8D7B47C053FEE2721B70C8BEE6379AC6 /* Pods-DRYPagerViewController_Example-resources.sh */,
+				77E773C9C08E55A6B954A979D9462F5F /* Pods-DRYPagerViewController_Example-umbrella.h */,
+				B00E1D3C693AE7BF842DFF2F56EA85B4 /* Pods-DRYPagerViewController_Example.debug.xcconfig */,
+				1493685074C8FC88B263C75E78A6351C /* Pods-DRYPagerViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-DRYPagerViewController_Example";
+			path = "Target Support Files/Pods-DRYPagerViewController_Example";
+			sourceTree = "<group>";
+		};
+		3417684B48B23CA697B6EDBF26A3A219 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B75D06D4B73CB01186CF2EECFF55C0F /* DRYPagerViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		39572AC5B4C8D43043C78ED947FDC217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61E929FA6D16802946ABD8E7E89D3E0C /* DRYPagerViewController.bundle */,
+				0BC9DA59E7201763032A48D37BD16C85 /* DRYPagerViewController.framework */,
+				83D8ED48A9A3DE9EB9A7495F56EBD438 /* Pods_DRYPagerViewController_Example.framework */,
+				159543CE41012694D1CB67F8657CE24A /* Pods_DRYPagerViewController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39EA7B5D1953F77432D78886FDE307E2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0F62F829D9C81B5131C36F9E7B2E8A62 /* DRYPagerView.h */,
+				F9D8482730553AEBD18A5C5F11E36C31 /* DRYPagerView.m */,
+				84F44E6F1CCE4CE331031B8DFE7C3D16 /* DRYPagerViewController.h */,
+				16E856BD04B902C0EC7EF083E11B449E /* DRYPagerViewController.m */,
+				B957DFED6109F61FE4C7363A1083CF4D /* UIViewController+DRYPagerViewController.h */,
+				587C2D3E46835C37A58A557439DD342B /* UIViewController+DRYPagerViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4A0048816CA92B3DFE1E55B6A75E35F2 /* Pods-DRYPagerViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				41D2E3614DCABA7F3F1D76C51A104E6F /* Info.plist */,
+				22377F1F0D7046D05EE36A22757F58FB /* Pods-DRYPagerViewController_Tests.modulemap */,
+				41CAFE0115AFE0867E75D3C126FA17DD /* Pods-DRYPagerViewController_Tests-acknowledgements.markdown */,
+				2DA08F82DB692F7F31593ECA9D5FEC13 /* Pods-DRYPagerViewController_Tests-acknowledgements.plist */,
+				1B0545ED3B8BFCCB14379E6A7BC23E50 /* Pods-DRYPagerViewController_Tests-dummy.m */,
+				F13C967CC6C5C3F7697FFB780913AAD0 /* Pods-DRYPagerViewController_Tests-frameworks.sh */,
+				01257ADE7B9B58526590B5E7B126B0E1 /* Pods-DRYPagerViewController_Tests-resources.sh */,
+				7FD94AA06BFEC591705BD1F217EEEE24 /* Pods-DRYPagerViewController_Tests-umbrella.h */,
+				02D456948B656E74AF4F35D41FFC0F46 /* Pods-DRYPagerViewController_Tests.debug.xcconfig */,
+				B97BA9B940B23A0503CAE97BD500AAC4 /* Pods-DRYPagerViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-DRYPagerViewController_Tests";
+			path = "Target Support Files/Pods-DRYPagerViewController_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				3417684B48B23CA697B6EDBF26A3A219 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				39572AC5B4C8D43043C78ED947FDC217 /* Products */,
+				91CB204E2DC8DDBCCA40E17F9BFAADAE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8870D87D1F305917005B1F2A5D206289 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F25A21D572AAB76B3ED64D04213EC83D /* DRYPagerViewController.modulemap */,
+				46BF14E62A2635F9114DB3E6F38FC649 /* DRYPagerViewController.xcconfig */,
+				868857E6F4EEC06697B238C379834937 /* DRYPagerViewController-dummy.m */,
+				C303E6642D4A224B01A09FEDB8915735 /* DRYPagerViewController-prefix.pch */,
+				CEB5CDB7AF82EAAC10F36B4206560139 /* DRYPagerViewController-umbrella.h */,
+				55D8F35D83D99CD080AC011874358439 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DRYPagerViewController";
+			sourceTree = "<group>";
+		};
+		91CB204E2DC8DDBCCA40E17F9BFAADAE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12B9D849300FF1658C449DADA51CBD4C /* Pods-DRYPagerViewController_Example */,
+				4A0048816CA92B3DFE1E55B6A75E35F2 /* Pods-DRYPagerViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07B6895B55787BF4D9AD0DE9E0B21806 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BE290ECECFF1986FB756362334D5A7 /* Pods-DRYPagerViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B20FB68863397205B8B1A3BB8559799 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC125482BCF41FE2920B0EB20D78D8E /* DRYPagerView.h in Headers */,
+				65D57F09BA31A02063111F0CFAD88C9F /* DRYPagerViewController-umbrella.h in Headers */,
+				E1C1E57C51A7E9E2241543B581EC2965 /* DRYPagerViewController.h in Headers */,
+				53A97EFF9047BB66865F797F35FD3FCA /* UIViewController+DRYPagerViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A43F2B46A86F89C51C41AA51B40071 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDD8ADF50398AF4235798CFE6B38D03 /* Pods-DRYPagerViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07427F917404D99107B9140688AC1C3D /* DRYPagerViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87B4312F36F1BEDBA33AC49E986E3C9 /* Build configuration list for PBXNativeTarget "DRYPagerViewController" */;
+			buildPhases = (
+				835C567393CF14557D3C6DFA923D5EF6 /* Sources */,
+				D960004177F18271E6B9E835AC518193 /* Frameworks */,
+				512C909A13A94D7037CADD8FFB659782 /* Resources */,
+				5B20FB68863397205B8B1A3BB8559799 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4461A36600D46C75BDD56E017128413 /* PBXTargetDependency */,
+			);
+			name = DRYPagerViewController;
+			productName = DRYPagerViewController;
+			productReference = 0BC9DA59E7201763032A48D37BD16C85 /* DRYPagerViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		16F6736320D1351A4736842533394B25 /* Pods-DRYPagerViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4008504A888E5CB6FAEB1F5BDE55F52 /* Build configuration list for PBXNativeTarget "Pods-DRYPagerViewController_Tests" */;
+			buildPhases = (
+				FD7E6634F29B093CA0D3FCD27316E169 /* Sources */,
+				9A8AD8AA78FABB47D9F67D761F8E0DEF /* Frameworks */,
+				07B6895B55787BF4D9AD0DE9E0B21806 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB17F5357590337D4D7B31F1FB2CA82D /* PBXTargetDependency */,
+			);
+			name = "Pods-DRYPagerViewController_Tests";
+			productName = "Pods-DRYPagerViewController_Tests";
+			productReference = 159543CE41012694D1CB67F8657CE24A /* Pods_DRYPagerViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		394684A1334F317EBC206E5525FE820D /* Pods-DRYPagerViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C934614D2C175F1CF9F6042F92DB1AF /* Build configuration list for PBXNativeTarget "Pods-DRYPagerViewController_Example" */;
+			buildPhases = (
+				6DBB28E79C7E85FBF9081DB0AE4DB0A4 /* Sources */,
+				97FE775D7BCDEEDBAD662175F4435E9E /* Frameworks */,
+				B8A43F2B46A86F89C51C41AA51B40071 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA79D5F88D190DEEF8D3620D37CBE19 /* PBXTargetDependency */,
+			);
+			name = "Pods-DRYPagerViewController_Example";
+			productName = "Pods-DRYPagerViewController_Example";
+			productReference = 83D8ED48A9A3DE9EB9A7495F56EBD438 /* Pods_DRYPagerViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA45CCD902128F17E80F6E3893012AA1 /* DRYPagerViewController-DRYPagerViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AF8DB62AD2BF2EC23D358D7A4B0DC13 /* Build configuration list for PBXNativeTarget "DRYPagerViewController-DRYPagerViewController" */;
+			buildPhases = (
+				4ED78141DC083B21EDED315947B296BF /* Sources */,
+				449E37F6F5084906577ABEAC19590423 /* Frameworks */,
+				EEC05AF7C3905CA8F33D4C0291950F8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DRYPagerViewController-DRYPagerViewController";
+			productName = "DRYPagerViewController-DRYPagerViewController";
+			productReference = 61E929FA6D16802946ABD8E7E89D3E0C /* DRYPagerViewController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 39572AC5B4C8D43043C78ED947FDC217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07427F917404D99107B9140688AC1C3D /* DRYPagerViewController */,
+				DA45CCD902128F17E80F6E3893012AA1 /* DRYPagerViewController-DRYPagerViewController */,
+				394684A1334F317EBC206E5525FE820D /* Pods-DRYPagerViewController_Example */,
+				16F6736320D1351A4736842533394B25 /* Pods-DRYPagerViewController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		512C909A13A94D7037CADD8FFB659782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F572789CC129A17B475675A6BEA79D67 /* DRYPagerViewController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC05AF7C3905CA8F33D4C0291950F8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ED78141DC083B21EDED315947B296BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBB28E79C7E85FBF9081DB0AE4DB0A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992BC8E5522D4FFA9A5787A913BABE3A /* Pods-DRYPagerViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835C567393CF14557D3C6DFA923D5EF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627DFFE48441275829F07C170124F597 /* DRYPagerView.m in Sources */,
+				143CC1E4CE24DE55EF7A31EED8285B20 /* DRYPagerViewController-dummy.m in Sources */,
+				7CC87088196DC46C61FEABC8C671C248 /* DRYPagerViewController.m in Sources */,
+				A4B30F219A3114F829B4B0B405871071 /* UIViewController+DRYPagerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7E6634F29B093CA0D3FCD27316E169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6CBEF0FA313597C61FD5399345ED8A /* Pods-DRYPagerViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FA79D5F88D190DEEF8D3620D37CBE19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DRYPagerViewController;
+			target = 07427F917404D99107B9140688AC1C3D /* DRYPagerViewController */;
+			targetProxy = D334B621DA5276E40FD5F3C4976ED828 /* PBXContainerItemProxy */;
+		};
+		B4461A36600D46C75BDD56E017128413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DRYPagerViewController-DRYPagerViewController";
+			target = DA45CCD902128F17E80F6E3893012AA1 /* DRYPagerViewController-DRYPagerViewController */;
+			targetProxy = CAC4919876F43084052298FF00C238A4 /* PBXContainerItemProxy */;
+		};
+		FB17F5357590337D4D7B31F1FB2CA82D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DRYPagerViewController;
+			target = 07427F917404D99107B9140688AC1C3D /* DRYPagerViewController */;
+			targetProxy = 70D01FDE84BD02A28243E735D868FF70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01BFE16C1C743C7F2EFF28477D363E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B97BA9B940B23A0503CAE97BD500AAC4 /* Pods-DRYPagerViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DRYPagerViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DRYPagerViewController_Tests/Pods-DRYPagerViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DRYPagerViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2245D803B27ACEEE6A7BD59221DB41BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46BF14E62A2635F9114DB3E6F38FC649 /* DRYPagerViewController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DRYPagerViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6AEAFD8DDD50CA75FB716D87170B9A6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B00E1D3C693AE7BF842DFF2F56EA85B4 /* Pods-DRYPagerViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DRYPagerViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DRYPagerViewController_Example/Pods-DRYPagerViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DRYPagerViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A94F93C11F3E4B985C6417B4152ABBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02D456948B656E74AF4F35D41FFC0F46 /* Pods-DRYPagerViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DRYPagerViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DRYPagerViewController_Tests/Pods-DRYPagerViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DRYPagerViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8CF823AAEA12B05BCADC843213A36976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46BF14E62A2635F9114DB3E6F38FC649 /* DRYPagerViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DRYPagerViewController/DRYPagerViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DRYPagerViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DRYPagerViewController/DRYPagerViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DRYPagerViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC716CE4E941557FF5F6C192193A7FC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46BF14E62A2635F9114DB3E6F38FC649 /* DRYPagerViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DRYPagerViewController/DRYPagerViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DRYPagerViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DRYPagerViewController/DRYPagerViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DRYPagerViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E44C1774584EA0C2920C2F2F9439EC79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46BF14E62A2635F9114DB3E6F38FC649 /* DRYPagerViewController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DRYPagerViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		EE72808519FB31A741E686242245C6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1493685074C8FC88B263C75E78A6351C /* Pods-DRYPagerViewController_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DRYPagerViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DRYPagerViewController_Example/Pods-DRYPagerViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DRYPagerViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AF8DB62AD2BF2EC23D358D7A4B0DC13 /* Build configuration list for PBXNativeTarget "DRYPagerViewController-DRYPagerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44C1774584EA0C2920C2F2F9439EC79 /* Debug */,
+				2245D803B27ACEEE6A7BD59221DB41BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C934614D2C175F1CF9F6042F92DB1AF /* Build configuration list for PBXNativeTarget "Pods-DRYPagerViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AEAFD8DDD50CA75FB716D87170B9A6B /* Debug */,
+				EE72808519FB31A741E686242245C6B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4008504A888E5CB6FAEB1F5BDE55F52 /* Build configuration list for PBXNativeTarget "Pods-DRYPagerViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A94F93C11F3E4B985C6417B4152ABBA /* Debug */,
+				01BFE16C1C743C7F2EFF28477D363E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A87B4312F36F1BEDBA33AC49E986E3C9 /* Build configuration list for PBXNativeTarget "DRYPagerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC716CE4E941557FF5F6C192193A7FC7 /* Debug */,
+				8CF823AAEA12B05BCADC843213A36976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,14 @@
+PODS:
+  - DRYPagerViewController (0.1.0)
+
+DEPENDENCIES:
+  - DRYPagerViewController (from `../`)
+
+EXTERNAL SOURCES:
+  DRYPagerViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DRYPagerViewController: dd8a9cf1bc30abf55c591bb2789aab1960de5577
+
+COCOAPODS: 0.39.0
