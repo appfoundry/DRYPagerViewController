@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'DRYPagerViewController_Example', :exclusive => true do
+  pod "DRYPagerViewController", :path => "../"
+end
+
+target 'DRYPagerViewController_Tests', :exclusive => true do
+  pod "DRYPagerViewController", :path => "../"
+
+  
+end
