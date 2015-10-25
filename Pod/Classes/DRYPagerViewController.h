@@ -12,7 +12,7 @@
 @protocol DRYPagerViewControllerDataSource <NSObject>
 
 - (NSUInteger)startIndex;
-- (UIViewController *)controllerAtIndex:(NSUInteger)index;
+- (UIViewController * _Nullable)controllerAtIndex:(NSUInteger)index;
 
 @end
 
@@ -20,9 +20,9 @@
 @interface DRYPagerViewController : UIViewController<DRYPagerDelegate, DRYPagerDataSource>
 
 @property (nonatomic, weak) id<DRYPagerViewControllerDataSource> dataSource;
-@property (nonatomic, readonly) UIViewController *leftViewController;
-@property (nonatomic, readonly) UIViewController *middleViewController;
-@property (nonatomic, readonly) UIViewController *rightViewController;
+@property (nonatomic, readonly) UIViewController * _Nullable leftViewController;
+@property (nonatomic, readonly) UIViewController * _Nullable middleViewController;
+@property (nonatomic, readonly) UIViewController * _Nullable rightViewController;
 
 - (void)moveToNextPageAnimated:(BOOL)animated;
 - (void)moveToPreviousPageAnimated:(BOOL)animated;

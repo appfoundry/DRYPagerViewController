@@ -18,8 +18,8 @@ typedef NS_ENUM(NSInteger, DRYPagerDirection) {
 
 @protocol DRYPagerDataSource <NSObject>
 
-- (UIView *)pagerViewPreviousPageView:(DRYPagerView *)pagerView;
-- (UIView *)pagerViewNextPageView:(DRYPagerView *)pagerView;
+- (UIView * _Nullable)pagerViewPreviousPageView:(DRYPagerView * _Nonnull)pagerView;
+- (UIView * _Nullable)pagerViewNextPageView:(DRYPagerView * _Nonnull)pagerView;
 
 @end
 
@@ -27,7 +27,7 @@ typedef NS_ENUM(NSInteger, DRYPagerDirection) {
 
 @optional
 
-- (void)pagerView:(DRYPagerView *)pagerView didMoveInDirection:(DRYPagerDirection)direction;
+- (void)pagerView:(DRYPagerView * _Nonnull)pagerView didMoveInDirection:(DRYPagerDirection)direction;
 
 @end
 

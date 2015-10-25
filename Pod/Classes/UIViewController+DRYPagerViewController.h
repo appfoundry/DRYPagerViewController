@@ -11,6 +11,6 @@
 
 @interface UIViewController (DRYPagerViewController)
 
-@property(nonatomic, readonly) DRYPagerViewController *dryPagerViewController;
+@property(nonatomic, readonly) DRYPagerViewController * _Nullable dryPagerViewController;
 
 @end
